@@ -372,7 +372,7 @@
 		align-items: center;
 	}
 
-	@media only screen and (max-height: 800px) {
+	@media only screen and (max-height: 600px) {
 		.box {
 			font-size: 150%;
 		}
