@@ -14,7 +14,7 @@
 	let customOpen = false;
 
 	let wordLength = 5;
-	let maxGuesses = 6;
+	let maxGuesses = 5;
 
 	const searchParams = new URLSearchParams(window.location.search);
 	if (searchParams.has("wordLength") && !isNaN(<any>searchParams.get("wordLength")) && parseInt(searchParams.get("wordLength")) >= 3 && parseInt(searchParams.get("wordLength")) <= 7) {
