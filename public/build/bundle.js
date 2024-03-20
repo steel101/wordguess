@@ -5373,7 +5373,7 @@ ${window.location.href.split("?")[0]}?wordLength=${game.wordLength}&maxGuesses=$
     	const func_2 = key => $instantPopupsWritable.remove(key);
     	const func_3 = () => $$invalidate(5, closedWonPopup = true);
     	const func_4 = () => $$invalidate(7, closedLosePopup = true);
-    	const click_handler = () => window.open("https://github.com/jameslinimk/wordlecloneweb", "_blank");
+    	
 
     	$$self.$capture_state = () => ({
     		scale,
