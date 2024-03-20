@@ -332,25 +332,7 @@
 		align-items: center;
 	}
 
-	.githubIco {
-		position: absolute;
-		bottom: 10px;
-		right: 10px;
-		background-color: rgb(216, 216, 216);
-		padding: 2px;
-		border-radius: 5px;
-		opacity: 0.6;
-		transition: 0.3s;
-	}
-
-	:global(body.darkMode) .githubIco {
-		background-color: whitesmoke;
-	}
-
-	.githubIco:hover {
-		opacity: 1;
-		cursor: pointer;
-	}
+	
 
 	* {
 		touch-action: manipulation;
